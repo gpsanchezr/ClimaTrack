@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--
+        Antes este archivo heredaba de Theme.Material3.DayNight.NoActionBar
+        mientras que values/themes.xml (modo claro) hereda de
+        Theme.MaterialComponents.DayNight.NoActionBar. Toda la app usa estilos
+        explícitos "Widget.MaterialComponents.*" (ver activity_maintenance.xml,
+        activity_login, etc.), pensados para resolver atributos de tema sobre
+        una familia MaterialComponents. Tener familias distintas entre modo
+        claro/oscuro es una inconsistencia real: un dispositivo en modo oscuro
+        corre la app sobre un padre de tema distinto al que se diseñó y probó.
+        Se unifica a la misma familia para que el comportamiento sea el mismo
+        en ambos modos.
+    -->
+    <style name="Base.Theme.ClimaTrack" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+    </style>
+</resources>

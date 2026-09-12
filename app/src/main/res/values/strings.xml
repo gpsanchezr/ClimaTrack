@@ -1,0 +1,52 @@
+<resources>
+    <!-- Textos generales y Login -->
+    <string name="app_name">ClimaTrack</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="login_subtitle">Inicia sesión para continuar</string>
+    <string name="username_hint">Usuario</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="login_button">INGRESAR</string>
+    <string name="remember_user">Recordar usuario</string>
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="footer_copyright">ClimaTrack © 2026</string>
+    <string name="login_error">Usuario o contraseña incorrectos</string>
+    <string name="loading">Cargando…</string>
+
+    <!-- Textos del menú de navegación -->
+    <string name="nav_inicio">Inicio</string>
+    <string name="nav_ordenes">Órdenes</string>
+    <string name="nav_equipos">Equipos</string>
+    <string name="nav_historial">Historial</string>
+    <string name="close_session">Cerrar sesión</string>
+
+    <!-- Textos del Dashboard -->
+    <string name="dashboard_title">Dashboard</string>
+    <string name="welcome_user">Hola, %1$s</string>
+    <string name="welcome_back">¡Bienvenido de nuevo!</string>
+    <string name="orders_summary">Resumen de Órdenes</string>
+    <string name="quick_access">Accesos rápidos</string>
+    <string name="pending">Pendientes</string>
+    <string name="in_progress">En proceso</string>
+    <string name="finalized">Finalizadas</string>
+
+    <!-- Textos de Mantenimiento -->
+    <string name="maintenance_title">Mantenimiento</string>
+    <string name="save">GUARDAR</string>
+    <string name="service_type">Tipo de servicio *</string>
+    <string name="preventive">Preventivo</string>
+    <string name="corrective">Correctivo</string>
+    <string name="advisory">Asesoría</string>
+    <string name="inspection">Inspección</string>
+    <string name="maintenance_date">Fecha del mantenimiento *</string>
+    <string name="start_time">Hora inicio</string>
+    <string name="diagnosis">Diagnóstico *</string>
+    <string name="work_done">Trabajo realizado *</string>
+    <string name="observations">Observaciones</string>
+    <string name="recommendations">Recomendaciones *</string>
+    <string name="equipment_status">Estado del equipo *</string>
+    <string name="time_spent">Tiempo empleado</string>
+    <string name="technician">Técnico</string>
+    <string name="order_label">Orden: %1$s</string>
+    <string name="client_label">Cliente: %1$s</string>
+    <string name="equipment_label">Equipo: %1$s</string>
+</resources>

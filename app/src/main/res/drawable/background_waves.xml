@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="250dp"
+    android:viewportWidth="400"
+    android:viewportHeight="250">
+
+    <!-- Ola trasera (Claro y suave) -->
+    <path
+        android:fillColor="#90CAF9"
+        android:fillAlpha="0.4"
+        android:pathData="M0,100 C120,50 280,180 400,110 L400,250 L0,250 Z" />
+
+    <!-- Ola intermedia (Celeste medio) -->
+    <path
+        android:fillColor="#64B5F6"
+        android:fillAlpha="0.7"
+        android:pathData="M0,140 C150,190 250,90 400,150 L400,250 L0,250 Z" />
+
+    <!-- Ola frontal (Azul principal corporativo) -->
+    <path
+        android:fillColor="#42A5F5"
+        android:pathData="M0,180 C130,130 270,210 400,170 L400,250 L0,250 Z" />
+
+</vector>

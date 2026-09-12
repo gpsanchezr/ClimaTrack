@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Colores Corporativos ClimaTrack -->
+    <color name="primary">#0D47A1</color>
+    <color name="primary_dark">#002171</color>
+    <color name="primary_light">#5472D3</color>
+    <color name="accent">#2196F3</color>
+
+    <!-- Fondos y Superficies -->
+    <color name="background">#FFFFFF</color>
+    <color name="surface_gray">#F5F5F5</color>
+    <color name="text_main">#212121</color>
+    <color name="text_secondary">#757575</color>
+
+    <!-- Estados -->
+    <color name="status_pending">#F57C00</color>
+    <color name="status_pending_bg">#FFF3E0</color>
+    <color name="status_in_progress">#1976D2</color>
+    <color name="status_in_progress_bg">#E3F2FD</color>
+    <color name="status_finished">#388E3C</color>
+    <color name="status_finished_bg">#E8F5E9</color>
+    <color name="status_error">#D32F2F</color>
+    <color name="status_error_bg">#FFEBEE</color>
+
+    <!-- Ondas Splash/Login -->
+    <color name="wave_bottom">#64B5F6</color>
+    <color name="wave_middle">#90CAF9</color>
+    <color name="wave_top">#BBDEFB</color>
+
+    <!-- Colores para Tarjetas de Accesos Rápidos (Dashboard 2x2) -->
+    <color name="card_orders_bg">#FFB74D</color>
+    <color name="card_orders_text">#E65100</color>
+    <color name="card_equipment_bg">#C8E6C9</color>
+    <color name="card_equipment_text">#1B5E20</color>
+    <color name="card_history_bg">#BBDEFB</color>
+    <color name="card_history_text">#0D47A1</color>
+    <color name="card_logout_bg">#FFCDD2</color>
+    <color name="card_logout_text">#B71C1C</color>
+    <color name="card_client_bg">#B2DFDB</color>
+    <color name="card_client_text">#004D40</color>
+</resources>
